@@ -119,7 +119,7 @@ object RuntimeManager {
             PATH = binPaths.distinct().joinToString(":")
 
             ENV_SSL_CERT_FILE = if (pythonLocation.isDownloaded) {
-                File(pythonLocation.ldDir.parentFile, "usr/etc/tls/cert.pem").absolutePath
+                File(pythonLocation.ldDir.absolutePath, "usr/etc/tls/cert.pem").absolutePath
             } else {
                 pythonLocation.ldDir.absolutePath + "/usr/etc/tls/cert.pem"
             }
@@ -127,7 +127,7 @@ object RuntimeManager {
             OPEN_SSL_CONF = ""
             if (nodeLocation.ldDir.exists()) {
                 OPEN_SSL_CONF = if (nodeLocation.isDownloaded) {
-                    File(nodeLocation.ldDir.parentFile, "usr/etc/tls/openssl.cnf").absolutePath
+                    File(nodeLocation.ldDir.absolutePath, "usr/etc/tls/openssl.cnf").absolutePath
                 } else {
                     nodeLocation.ldDir.absolutePath + "/usr/etc/tls/openssl.cnf"
                 }
