@@ -157,6 +157,7 @@
         <item>조선말</item>
         <item>latviešu</item>
         <item>بهاس ملايو</item>
+        <item>Mara Reih</item>
         <item>Norsk Bokmål</item>
         <item>Norsk Nynorsk</item>
         <item>पंजाबी</item>
@@ -203,6 +204,7 @@
         <item>ko</item>
         <item>lv</item>
         <item>ms</item>
+        <item>mrh</item>
         <item>nb</item>
         <item>nn</item>
         <item>pa</item>
@@ -263,7 +265,7 @@
         <item>PRX Series</item>
         <item>PRX Stories</item>
         <item>Rokfin</item>
-        <item>Yahoo screen</item>
+<!--        <item>Yahoo screen</item>-->
 <!--        <item>Google Video</item>-->
         <item>Netverse</item>
     </array>
@@ -277,7 +279,7 @@
         <item>prxseries</item>
         <item>prxstories</item>
         <item>rkfnsearch</item>
-        <item>yvsearch</item>
+<!--        <item>yvsearch</item>-->
 <!--        <item>gvsearch</item>-->
         <item>netsearch</item>
     </array>
